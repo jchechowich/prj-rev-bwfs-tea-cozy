@@ -1,0 +1,138 @@
+html {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+}
+/* Header Section */
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+.logo img {
+  height: 50px;
+}
+.other {
+  padding-right: 10px;
+}
+.other span {
+  text-decoration: underline;
+  padding: 10px;
+}
+
+/* BODY */
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  z-index: auto;
+}
+.important {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.missionimage {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  justify-content: space-around;
+}
+.missionimage span {
+  width: 1200px;
+  background-color: black;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* row of pictures*/
+
+.featuredtea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  flex-direction: column;
+}
+.featuredteahead {
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.teaimage {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.teaimage img {
+  height: 200px;
+  width: 300px;
+}
+.teaimage p {
+  padding-top: 10px;
+  text-align: center;
+}
+.teaimage span {
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* LAST PICTURE*/
+
+.location {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  flex-direction: column;
+}
+.locationrow {
+  display: flex;
+  justify-content: space-around;
+}
+.locationrow div {
+  background-color: black;
+  margin: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+}
+.box .boxhead {
+  flex-direction: column;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+#copyright {
+  text-align: left;
+  align-items: flex-start;
+  padding-left: 20px;
+}
